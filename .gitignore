@@ -1,0 +1,21 @@
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.class
+
+# Generated data
+ data/raw/*
+!data/raw/.gitkeep
+data/cleaned/*
+!data/cleaned/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Logs
+logs/
